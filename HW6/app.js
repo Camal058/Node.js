@@ -18,7 +18,7 @@ const filterFunc = new Transform({
 });
 
 array.forEach((element) => {
-    filteringFunc.write(element);
+    filterFunc.write(element);
 });
 
 filterFunc.end();
